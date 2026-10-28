@@ -1,0 +1,27 @@
+# ── Swift Package Manager ─────────────────────────────────────────────
+.build/
+.swiftpm/
+Package.resolved
+
+# ── Xcode ─────────────────────────────────────────────────────────────
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# ── AtlasOSS libraries (never commit user data) ───────────────────────
+*.atlaslibrary/
+library.sqlite
+library.sqlite-wal
+library.sqlite-shm
+
+# ── macOS ─────────────────────────────────────────────────────────────
+.DS_Store
+._*
+
+# ── Logs / scratch ────────────────────────────────────────────────────
+*.log
+/tmp/
+
+# ── Local agent / scratch (not source) ────────────────────────────────
+.pi/
+.context/
