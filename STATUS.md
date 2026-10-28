@@ -17,7 +17,7 @@
   one `scaleEffect` + `offset`); no per-tile `viewPoint`
 - **P2-A Native Board**: landed — AppKit CALayer board (hit-test == draw matrix)
 - Now: **paused by user 2026-10-28** (Canvas Native Board awaiting manual verify); next when resumed: P2-B / parity queue
-- GitHub: pending first push this session
+- GitHub: https://github.com/ShangGuan2613/atlas-oss (`main` @ first push 2026-10-28)
 - Bugfix: sidebar click steal (2026-10-28)
 - Tools: `~/.local/bin/pi` 1.1.0; Xcode at `/Applications/Xcode.app`; grok at `~/.grok/bin/grok`
 
@@ -26,7 +26,8 @@
 ## Sync — 2026-10-28 (Asia/Shanghai)
 
 - User paused construction (`终止`).
-- Snapshot for GitHub first push: P0–P1 gate closed; P2-A + Feel + Native Board landed; P2-B Infinity paused.
+- Repo: https://github.com/ShangGuan2613/atlas-oss (public, `main`)
+- Snapshot pushed: P0–P1 gate closed; P2-A + Feel + Native Board landed; P2-B Infinity paused.
 - Manual Canvas verify (click/drag/zoom) still owed before declaring feel done.
 
 ## P2-A — Canvas core: persisted board, pan/zoom, culling (landed)
